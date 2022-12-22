@@ -32,6 +32,7 @@ These are the requirements that you must meet to satisfy the scope of work. They
 
 ## Mock-up: 
 This is an image or animation that demonstrates the design and functionality of the web application that you'll build for the Challenge.
+![Screenshot](https://github.com/Valentinaaranggo/Horiseon-Refactor/blob/main/Screenshot_20221222_041747.png)
 
 
 ## Submission: 

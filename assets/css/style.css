@@ -1,26 +1,27 @@
+/* this selector selects all elements in the HTML file and gives them that styling*/
 * {
-    box-sizing: border-box;
-    padding: 0;
+    box-sizing: border-box; 
+    padding: 0; /*no padding or margin*/
     margin: 0;
 }
-
+/* selects all elements of the body and gives them the styling shown below*/
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*background color of the body*/
 }
-
+/* selects all elements of the class header and gives them the styling shown below*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff; /*text color*/
 }
-
+/*selects elements under the class header AND <h1>. gives them the styling shown below*/ 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
+/*selects elements under the class header AND <div>. Gives them the styling shown below*/ 
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,22 +30,22 @@ body {
     font-size: 20px;
 }
 
-
+/*selects elements under the class header, <div>, <ul>, AND <li> and give them the styling shown below*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* under <a> the color of the text will be white and it will have no text decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* under <p> the font size will be 16px*/
 p {
     font-size: 16px;
 }
-
-.hero {
+/* under the class backgroundImage there will be an image embeded that has all these specifications shown below*/
+.backgroundImage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -52,23 +53,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*this float left class moves the image to the lef*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* this float-right class moves the image to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* selects elements under the content class and gives them the styling shown below*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* selects elements under the content benefits and gives them the styling shown below*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -79,26 +80,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead,.benefit-brand,.benefit-cost {
+/* selects elements under the class benefitcontent and gives them the styling shown below*/
+.benefitcontent {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-.benefit-lead h3,.benefit-brand h3, .benefit-cost h3 {
+/* selects elements under the class benefitcontent AND <h3>. Also giving them the styling shown below*/
+.benefitcontent h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+/* selects elements under the class benefitcontent AND <img>. Also giving them the styling shown below*/
+.benefitcontent img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* selects elements under the class content-container and gives them the styling shown below*/
 .content-container {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,24 +109,24 @@ p {
     color: #ffffff;
 }
 
-
+/* selects elements under the class content-container AND <img>. Also giving them the styling shown below*/
 .content-container img {
     max-height: 200px;
 }
-
+/* selects elements under the class content-container AND <h2>. Also giving them the styling shown below*/
 .content-container h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*selects elements under the class footer and gives them the styling shown below*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* selects elements under the class footer AND <h2>  giving them the styling shown below*/
 .footer h2 {
     font-size: 20px;
 }

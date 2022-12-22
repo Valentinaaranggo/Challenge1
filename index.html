@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+<!--organized as the head of the website-->
 <head>
     <meta charset="UTF-8" />
+    <!--Stle sheet is linked-->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!--descriptive title for the website-->
+    <title>Horiseon Website</title>
 </head>
-
+<!--head end and the body structure begins-->
 <body>
+    <!--header section= top of the page-->
+    <!--class=header is used to point to the class name "header" in a style sheet.-->
      <header class="header">
+        <!--header title-->
         <h1>Horiseon</h1>
+        <!--this div provides structure to the list items located in the header-->
         <div>
+            <!--unordered list-->
             <ul>
+                <!--list items-->
                 <li>
+                    <!-- this links to another section on the page when clicked on-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
+                    <!-- this links to another section on the page when clicked on-->
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
                 <li>
+                    <!-- this links to another section on the page when clicked on-->
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
             </div>
         </header>
+    <!--the main section begins and the header ends-->
     <main>
-        <section class="hero">
-         <!-- <img src="../Develop/assets/images/digital-marketing-meeting.jpg"  class="hero" /> -->
-        </section>
-        </section>
+        <!--created a section to provide a more readable html file and more structured-->
+        <!--class=backgroundImage is used to point to the class name "backgroundImage" in a style sheet.-->
+        <section class="backgroundImage"></section>
+        <!--created another section to provide a more readable html file and more structured-->
+        <!--class=content is used to point to the class name "content" in a style sheet.-->
         <section class="content">
+            <!--the id allows the reader to jump to this specific part of the content page and the class gives it style from the css style sheet-->
             <div id="search-engine-optimization"class="content-container">
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+                <!-- img is used to embed an image in the html page, src specifies the path to the image, and alt specifies alternate text for the image, and the class gives it styling -->
+                <img src="./assets/images/search-engine-optimization.jpg" alt="notebook on desk with SEO written on it" class="float-left" />
+                <!--header to this section-->
                 <h2>Search Engine Optimization</h2>
+                <!--paragraph below header-->
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
+            <!--same as comments above-->
             </div>
             <div id="online-reputation-management" class="content-container">
-                <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+                <img src="./assets/images/online-reputation-management.jpg" alt="laptop with a reputation graphic on it"class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                 </p>
+             <!--same as comments above-->
             </div>
             <div id="social-media-marketing" class="content-container">
-                <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+                <img src="./assets/images/social-media-marketing.jpg" alt= "work meeting table with social media terms and graphics on it"class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
                     Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
                 </p>
             </div>
         </section>
+        <!-- another section is created for readability and structure of benefits-->
+         <!--class=benefits is used to point to the class name "benefits" in a style sheet.-->
         <section class="benefits">
-            <div class="benefit-lead">
+            <!--div section created under content-->
+             <!--class=benefitcontent is used to point to the class name "benefitcontent" in a style sheet.-->
+            <div class="benefitcontent">
+                <!--under this section a heading is created-->
                 <h3>Lead Generation</h3>
-                <img src="./assets/images/lead-generation.png" />
+                 <!-- img is used to embed an image in the html page, src specifies the path to the image, and alt specifies alternate text for the image -->
+                <img src="./assets/images/lead-generation.png" alt="gear at the top of a funnel and at the other end is a coin " />
+                <!--paragraph that goes under heading and the image-->
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </div>
-            <div class="benefit-brand">
+            <!--new div section created under content-->
+            <!--same as comments above-->
+            <div class="benefitcontent">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </div>
-            <div class="benefit-cost">
+            <!--same as comments above-->
+            <div class="benefitcontent">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png"></img>
                 <p>
@@ -75,13 +104,20 @@
                 </p>
             </div>
         </section>
+        <!--benefits section ends-->
+        <!--footer begins which is the end of the page-->
         <footer class="footer">
+            <!--heading created-->
             <h2>Made with ❤️️ by Horiseon</h2>
+            <!--paragraph under heading -->
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>
+            <!--footer ends-->
         </footer>
+        <!--main ends-->
     </main>
+    <!--body ends-->
 </body>
 
 </html>

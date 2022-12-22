@@ -72,3 +72,7 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+
+## Link to Deployed Application
+
+https://valentinaaranggo.github.io/Horiseon-Refactor/
